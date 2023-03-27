@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;
+
+0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito&display=swap");
+body {
+  font-family: "Kanit", sans-serif;
+  color: beige;
+  background-color: rgb(37, 36, 36);
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.slider-wraper {
+  position: relative;
+}
+
+.slider-wraper .swiper-button-prev {
+  background-color: transparent;
+  border: none;
+  left: var(--swiper-navigation-sides-offset, -75px);
+}
+
+.slider-wraper .swiper-button-next {
+  background-color: transparent;
+  border: none;
+  right: var(--swiper-navigation-sides-offset, -62px);
+}

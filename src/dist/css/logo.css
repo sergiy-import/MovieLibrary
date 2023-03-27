@@ -1,0 +1,24 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+  margin-right: 5px;
+}
+
+.logo a {
+  width: 205px;
+  font-size: 30px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #232f4b;
+  transition: all 0.3s;
+}
+
+.logo a:hover {
+  color: #3756f7;
+}

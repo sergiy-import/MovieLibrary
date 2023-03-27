@@ -1,0 +1,37 @@
+footer {
+  background-color: #191a1f;
+  padding-top: 50px;
+  .content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    .text-area {
+      color: white;
+      h3 {
+        font-size: 22px;
+        color: #fff;
+        font-weight: 700;
+        margin: 0 0 25px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.8em;
+        text-align: justify;
+        width: 100%;
+        max-width: 400px;
+      }
+    }
+  }
+  .copyright {
+    background-color: #000;
+    color: #fff;
+    font-size: 0.9375rem;
+    p {
+      text-align: center;
+      padding: 20px 0;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}

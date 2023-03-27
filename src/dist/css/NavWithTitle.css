@@ -1,0 +1,35 @@
+footer nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+footer nav h3 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0 0 25px;
+}
+
+footer nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  margin: 0 0 50px;
+}
+
+footer nav ul li {
+  list-style: none;
+}
+
+footer nav ul li a {
+  transition: all 0.3s;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  color: #3756f7;
+}

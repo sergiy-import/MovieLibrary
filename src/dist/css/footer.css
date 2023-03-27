@@ -1,0 +1,44 @@
+footer {
+  background-color: #191a1f;
+  padding-top: 50px;
+}
+
+footer .content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+footer .content .text-area {
+  color: white;
+}
+
+footer .content .text-area h3 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0 0 25px;
+}
+
+footer .content .text-area p {
+  font-size: 16px;
+  line-height: 1.8em;
+  text-align: justify;
+  width: 100%;
+  max-width: 400px;
+}
+
+footer .copyright {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.9375rem;
+}
+
+footer .copyright p {
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .copyright p a {
+  color: white;
+  text-decoration: none;
+}

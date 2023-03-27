@@ -1,0 +1,124 @@
+header {
+  nav {
+    ul {
+      display: flex;
+      padding: 0;
+      justify-content: flex-end;
+      gap: 35px;
+      margin: 30px auto;
+      li {
+        list-style: none;
+        a {
+          transition: all .3s;
+          color: #232f4b;
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: 700;
+          &:hover {
+            color: #3756f7;
+          }
+        }
+      }
+    }
+    
+  }
+
+  // .nav-holder {
+    
+  //   @include media ('<=767px') {
+  //       width: 100%;
+  //       background-color: $blue;
+
+  //       @include animate(opacity visibility, 0.4s);
+  //       opacity: 0;
+  //       visibility: hidden;
+
+  //       &.active {
+  //       opacity: 1;
+  //       visibility: visible;
+  //       }
+  //   }
+   
+  // }
+
+  // .nav-item {
+      
+
+  //     @include media ('>=768px') {
+  //         display: inline-block;
+  //     }
+
+  // }
+
+
+
+  // .burger-holder {
+  //     position: absolute;
+  //     right: 18px;
+  //     top: 38px;
+
+  //     @include media ('>=768px') {
+  //         display: none;
+  //     }
+  // }
+
+  // .burger-opener {
+  //   position: relative;
+  //   top: -13px;
+  //   width: 40px;
+  //   height: 24px;
+  //   background-color: transparent;
+  //   border: none;
+  //   outline: none;
+
+  //     &.active {
+  //       span {
+  //           opacity: 0;
+  //           visibility: hidden;
+  //       }
+
+  //       &:before {
+  //           transform: rotate(-45deg);
+  //           top: 47%;
+  //       }
+
+  //       &:after {
+  //           transform: rotate(45deg);
+  //           bottom: 50%;
+  //       }
+  //     }
+
+  //     .burger-lines {
+  //         @include animate(all, 0.4s);
+  //         width: 37px;
+  //         height: 2px;
+  //         background-color: $white;
+  //         position: absolute;
+  //         left: 0px;
+
+          
+  //     }
+
+  //     &:before {
+  //         @include animate(all, 0.4s);
+  //         content: '';
+  //         top: 0;
+  //         width: 37px;
+  //         height: 2px;
+  //         background-color: $white;
+  //         position: absolute;
+  //         left: 0;
+  //     }
+
+  //     &:after {
+  //         @include animate(all, 0.4s);
+  //         content: '';
+  //         bottom: -2px;
+  //         width: 37px;
+  //         height: 2px;
+  //         background-color: $white;
+  //         position: absolute;
+  //         left: 0;
+  //     }
+  // }
+}

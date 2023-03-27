@@ -1,0 +1,10 @@
+header {
+  border-bottom: 1px solid #9f9f9f;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+header .header-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
