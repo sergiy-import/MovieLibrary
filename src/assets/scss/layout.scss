@@ -10,20 +10,32 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   padding: 0 15px;
+
+  h1 {
+    text-align: center;
+  }
+}
+
+.modaltext {
+  color: black;
 }
 
 .slider-wraper {
   position: relative;
 
+  .swiper-initialized {
+    margin: 0 50px;
+  }
+
   .swiper-button-prev  {
     background-color: transparent;
     border: none;
-    left: var(--swiper-navigation-sides-offset, -75px);
+    // left: var(--swiper-navigation-sides-offset, -75px);
   }
 
   .swiper-button-next {
     background-color: transparent;
     border: none;
-    right: var(--swiper-navigation-sides-offset, -62px);
+    // right: var(--swiper-navigation-sides-offset, -62px);
   }
 }

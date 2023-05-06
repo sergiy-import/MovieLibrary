@@ -7,7 +7,7 @@ import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 
 const baseURL = "https://api.themoviedb.org/3/";
-const ApiKey = "b03d508a9e788070ca877f98f3f8bbba";
+const ApiKey = "256e1fa5a6f90de9c633ddf66a19c24f";
 const allTvShows = "discover/tv";
 const searchTvShows = "/search/tv";
 const imgBaseURL = "https://image.tmdb.org/t/p/w500"

@@ -10,7 +10,7 @@
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   padding: 5px;
-  transition: ease-in-out 0, 2s;
+  transition: ease-in-out 0.2s;
 }
 
 .articles .article :hover {
@@ -18,8 +18,13 @@
           transform: scale(110%);
 }
 
+.articles .article .link {
+  text-decoration: none;
+}
+
 .articles .article h2 {
   font-size: 18px;
+  color: beige;
 }
 
 .articles .article img {
@@ -82,4 +87,18 @@
 .pagination button {
   color: beige;
   border-color: beige;
+}
+
+.card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  transition: ease-in-out 0.2s;
+}
+
+.card :hover {
+  -webkit-transform: scale(110%);
+          transform: scale(110%);
+}
+
+.card img {
+  max-width: 100%;
 }

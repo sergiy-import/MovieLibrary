@@ -14,18 +14,28 @@ body {
   padding: 0 15px;
 }
 
+.container h1 {
+  text-align: center;
+}
+
+.modaltext {
+  color: black;
+}
+
 .slider-wraper {
   position: relative;
+}
+
+.slider-wraper .swiper-initialized {
+  margin: 0 50px;
 }
 
 .slider-wraper .swiper-button-prev {
   background-color: transparent;
   border: none;
-  left: var(--swiper-navigation-sides-offset, -75px);
 }
 
 .slider-wraper .swiper-button-next {
   background-color: transparent;
   border: none;
-  right: var(--swiper-navigation-sides-offset, -62px);
 }

@@ -7,7 +7,7 @@ import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 
 const baseURL = "https://api.themoviedb.org/3";
-const ApiKey = "b03d508a9e788070ca877f98f3f8bbba";
+const ApiKey = "256e1fa5a6f90de9c633ddf66a19c24f";
 const allMovies = "/discover/movie";
 const searchMovies = "/search/movie";
 const imgBaseURL = "https://image.tmdb.org/t/p/w500"
@@ -68,11 +68,12 @@ const MoviesList = () => {
 
     const items = movies.map((movie, index) =>
         <div key={index} className="article">
-          <img src={imgBaseURL + movie.poster_path} alt={movie.title}/>
-          <h2>{movie.title}</h2>
-          {/* <p>{movie.overview}</p> */}
-          <p className="rating">IMDB {movie.vote_average}</p>
-          <Link to={"/movies/" + movie.id}>More</Link>
+          <Link to={"/movies/" + movie.id} className="link">
+            <img src={imgBaseURL + movie.poster_path} alt={movie.title}/>
+            <h2>{movie.title}</h2>
+            {/* <p>{movie.overview}</p> */}
+            <p className="rating">IMDB {movie.vote_average}</p>
+          </Link>
         </div>
     );
     return (

@@ -21,3 +21,9 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #3756f7;
 }
+
+@media screen and (max-width: 767px) {
+  header .nav-holder {
+    display: none;
+  }
+}

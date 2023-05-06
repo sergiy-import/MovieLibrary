@@ -1,4 +1,5 @@
 .logo {
+  width: 85px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
