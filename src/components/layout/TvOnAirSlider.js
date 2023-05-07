@@ -55,7 +55,7 @@ const TvOnAirSlider = () => {
 
     const slides = tvshows.map((tvshows, index) =>
         <SwiperSlide key={index}>
-          <Link to={"/tvshows/" + tvshows.id}>
+          <Link to={"/top-tv/" + tvshows.id}>
             <div className="card">
               {/* <h2>{ movie.title }</h2> */}
               <img src={imgBaseURL + tvshows.poster_path} alt={tvshows.title}/>

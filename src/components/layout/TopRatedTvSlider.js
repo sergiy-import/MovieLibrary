@@ -55,7 +55,7 @@ const TopRatedTvSlider = () => {
 
     const slides = movies.map((movie, index) =>
         <SwiperSlide key={index}>
-          <Link to={"/movies/" + movie.id}>
+          <Link to={"/top-tv/" + movie.id}>
             <div className="card">
               {/* <h2>{ movie.title }</h2> */}
               <img src={imgBaseURL + movie.poster_path} alt={movie.title}/>
