@@ -3,9 +3,6 @@ import Logo from './Logo';
 import '../../dist/css/header.css';
 import BurgerNavi from './BurgerNavi';
 import React from 'react';
-import { slide as Menu } from 'react-burger-menu';
-
-
 
 let primaryNavi = {
   links: [
@@ -32,34 +29,13 @@ let primaryNavi = {
   ]
 };
 
-class Example extends React.Component {
-  showSettings (event) {
-    event.preventDefault();
-
-        
-  }
-  
-  render () {
-
-    return (
-      <Menu>
-        <div>
-          <p>Hello</p>
-          <BurgerNavi { ...primaryNavi}/>
-        </div>
-        
-      </Menu>
-    );
-  }
-};
-
 const Header = () => {
   return (
     <header>
       <div className="header-wrapper container">
-        < Menu right/>
         < Logo />
         < HeaderNavi { ...primaryNavi }/>
+        <BurgerNavi { ...primaryNavi}/>
       </div>
     </header>
   )

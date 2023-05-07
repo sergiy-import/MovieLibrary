@@ -1,37 +1,24 @@
 import { NavLink } from 'react-router-dom';
 import React from 'react';
-// import { slide as Menu } from 'react-burger-menu';
+ import { slide as Menu } from 'react-burger-menu';
 import '../../dist/css/header.css';
 
-const BurgerNavi = (props) => {
-    const listItems = props.links.map((item, index) =>
-        <li key={index} className='nav-item'>
-          <NavLink to={ item.path }>{ item.link }</NavLink>
-        </li>
-    );
-  
+class BurgerNavi extends React.Component {
+  showSettings (event) {
+    event.preventDefault();
+  }
+
+  render () {
     return (
-      <div>
-        <div className='nav-holder js-nav-holder'>
-          <nav>
-            <ul>{ listItems }</ul>
-          </nav>
-        </div>
-      </div>
+        <Menu right>
+          <NavLink to={ "/" }>Home</NavLink>
+          <NavLink to={ "/movies" }>Movies</NavLink>
+          <NavLink to={ "/tvshows" }>Tv Shows</NavLink>
+          <NavLink to={ "/contacts" }>Contacts</NavLink>
+          <NavLink to={ "/about" }>About</NavLink>
+        </Menu>
     );
   }
-  
-  BurgerNavi.defaultProps = {
-    links: [
-      {
-        link: "Link",
-        path: "/"
-      },
-      {
-        link: "Link",
-        path: "/"
-      },
-    ]
-  }
-  
-  export default BurgerNavi;
+}
+
+export default BurgerNavi;
