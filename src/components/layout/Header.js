@@ -33,9 +33,11 @@ const Header = () => {
   return (
     <header>
       <div className="header-wrapper container">
-        < Logo />
-        < HeaderNavi { ...primaryNavi }/>
-        <BurgerNavi { ...primaryNavi}/>
+        <div className='header-holder'>
+          < Logo />
+          < HeaderNavi { ...primaryNavi }/>
+          <BurgerNavi { ...primaryNavi}/>
+        </div>
       </div>
     </header>
   )

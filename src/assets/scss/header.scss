@@ -7,6 +7,11 @@ header {
   .header-wrapper {
     display: flex;
     justify-content: space-around;
+
+    .header-holder {
+      display: flex;
+      justify-content: space-around;
+    }
   }
 }
 
@@ -24,6 +29,10 @@ header {
     transform: translateX(200%);
     transition: all 0,5s;
   }
+
+  // .header-wrapper {
+  //   justify-content: center;
+  // }
 }
 
 /* Color/shape of burger icon bars */
@@ -72,11 +81,18 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-item-list {
   color: #b8b7ad;
   padding: 0.8em;
+
+  :hover {
+    color: #007aff;
+  }
 }
 
 /* Individual item */
 .bm-item {
   display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #b8b7ad;
 }
 
 /* Styling of overlay */

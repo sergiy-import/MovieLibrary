@@ -9,6 +9,11 @@ header .header-wrapper {
   justify-content: space-around;
 }
 
+header .header-wrapper .header-holder {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* Position and sizing of burger button */
 
 .bm-burger-button {
@@ -75,10 +80,17 @@ Note: Beware of modifying this element as it can break the animations - you shou
   padding: 0.8em;
 }
 
+.bm-item-list :hover {
+  color: #007aff;
+}
+
 /* Individual item */
 
 .bm-item {
   display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #b8b7ad;
 }
 
 /* Styling of overlay */

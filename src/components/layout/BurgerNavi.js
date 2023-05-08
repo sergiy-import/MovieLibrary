@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import React from 'react';
- import { slide as Menu } from 'react-burger-menu';
+import { slide as Menu } from 'react-burger-menu';
 import '../../dist/css/header.css';
 
 class BurgerNavi extends React.Component {
